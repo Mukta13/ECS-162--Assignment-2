@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Inter:wght@400;600&display=swap');
+
+
+.topContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 60px;
+    
+  
+}
+
+
+.videos{
+  margin-bottom: -18px;
+  
+
+
+
+}
+.align {
+  display: flex;
+  flex-direction: row;
+}
+#uploadWrapper {
+  display:flex;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: center;
+
+
+  
+}
+
+
+.column2{
+  margin-top: -18px;
+}
+
+
+
+i {
+  
+  margin-top: 8px;
+  color: rgba(238, 29, 82, 0.9);
+  font-family: 'Boogaloo', cursive;
+  font-size: 64px;
+  
+  
+}
+#myVids{
+  position: absolute;
+  right: 30px;
+  margin-right: 45px;
+  text-align:center;
+}
+
+.ttPets{
+  font-family: 'Boogaloo', cursive;
+  font-size: 48px;
+  
+}
+
+#uploads{
+  font-family: 'Inter', sans-serif;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.display-video{
+  display:inline;
+
+  
+  
+}
+
+.buttons {
+   border:none;
+   background-color:transparent;
+   outline:none;
+   font-family: 'Boogaloo', cursive;
+   font-size: 64px;
+   color: rgba(238, 29, 82, 0.8);
+   position: relative;
+   bottom: 15px;
+   margin-left: 20px;
+  margin-right: 50px;
+ 
+   
+}
+.mgbutton{
+  color: white;
+  font-family: 'Inter', sans-serif;
+  background-color: rgba(238, 29, 82, 0.9);
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 15px;
+  padding: 20px;
+  padding-left: 35px;
+  padding-right: 35px;
+  
+  
+
+}
+
+
+
+.videoDisplay {
+ 
+  font-family: 'Inter', sans-serif;
+  border-color: #D3D3D3;
+  border-style: solid;
+  border-width: thin;
+  border-radius: 12px;
+  width: 130px;
+  font-size: 16px;
+  height: 50px;
+  padding-left: 10px;
+  padding-right: 100px;
+  margin-bottom: none;
+  resize: none;
+  
+  
+  
+
+}
+
+.videoDisplay1 {
+ 
+  font-family: 'Inter', sans-serif;
+  border-color: #D3D3D3;
+  border-style: dashed;
+  border-width: thin;
+  border-radius: 12px;
+  width: 50px;
+  font-size: 16px;
+  height: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: left;
+  margin-bottom: 30px;
+  resize: none;
+  position: relative;
+  
+  
+
+}
+
+.middleContainer{
+   
+  font-family: 'Inter', sans-serif;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  position: relative;
+  
+}
+
+.desktop-view{
+  display:flex;
+  flex-direction: row;
+}
+
+.desktop-column-left{
+  display:flex;
+  flex-direction: column;
+  margin-right: 45px;
+}
+
+.desktop-column-right{
+ display:flex;
+  flex-direction: column;
+}
+
+input{
+    font-size: 16px;
+    border-radius: 15px;
+    padding: 17px 17px;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+    margin-bottom:25px;
+    max-width: 310px;
+    min-width:230px;
+  border: solid lightgray;
+  margin-right:20px;
+  margin-left: 70px;
+
+  }
+h2 {
+  font-size:18px;
+  font-weight: 600;
+}
+#game{
+
+
+  
+  right: 25px;
+  
+}
+
+/* for tablet */
+@media (max-width: 900px){
+  #uploadWrapper{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+    
+  }
+
+  .topContainer {
+    justify-content: space-around;
+    position: static;
+    margin-top: 60px;
+
+  }
+  .videoDisplay1{
+    padding-left: 15px;
+    padding-right: 160px;
+    height: 42px;
+    margin-bottom: 20px;
+    width: 130px;
+      
+  }
+
+  .videoDisplay{
+      padding-left: 15px;
+      padding-right: 160px;
+      height: 42px;
+      
+  }
+  .buttons {
+    font-size: 60px;
+    
+  }
+  i {
+    font-size: 60px;
+  }
+  #myVids {
+    position: static;
+    margin-right:0px;
+  }
+
+  .desktop-view{
+  display:block;
+
+}
+
+.desktop-column-left{
+  display:block;
+
+}
+
+.desktop-column-right{
+ display:block;
+
+}
+ 
+
+ 
+}
+
+/* for phone */
+
+  @media (max-width: 580px ) {
+    #uploadWrapper{
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+    
+  }
+    .buttons {
+      font-size: 44px;
+      position: relative;
+      bottom: 8px;
+      margin-left: 18px;
+    }
+    #uploads {
+      
+    }
+    .videoDisplay1{
+      padding-left: 15px;
+      padding-right: 85px;
+      height: 42px;
+      margin-bottom: 20px;
+      width: 130px;
+      
+      
+  
+  
+  
+  
+  
+  
+      
+    }
+    .videoDisplay {
+      padding-left: 15px;
+      padding-right: 85px;
+      height: 42px;
+      margin-bottom: 20px;
+    
+      
+      
+    }
+
+
+
+    .ttPets {
+      font-size: 32px; 
+    }
+
+   h2 {
+     font-size:14px;
+   }
+
+  
+
+  .middleContainer {
+    margin-top: 5px;
+  }   
+
+  .topContainer{
+     margin-top: 35px;
+  }
+
+    .mgbutton {
+      font-size: 16px;
+      padding:17px;
+      padding-left: 23px;
+      padding-right: 23px;
+    }
+    .desktop-view{
+  display:block;
+
+}
+
+.desktop-column-left{
+  display:block;
+  
+
+}
+
+.desktop-column-right{
+ display:block;
+  
+
+}
+   
+  }
