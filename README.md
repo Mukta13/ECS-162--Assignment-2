@@ -1,0 +1,2 @@
+# TikTok-for-Pets-game
+Builts using JavaScript, Node Express, SQLITE, HTML, CSS, and flexbox. This program takes the pet's videos input (url and name) from the user and stores it in a database. On the next page, the videos are displayed from the database which then gives you the option to either delete the videos from the database or add a video to the database or play the game to find the most favourite pet video!
